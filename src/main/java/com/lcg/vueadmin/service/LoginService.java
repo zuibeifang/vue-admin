@@ -1,4 +1,4 @@
-package com.lcg.service;
+package com.lcg.vueadmin.service;
 
 import com.lcg.vueadmin.entity.User;
 
