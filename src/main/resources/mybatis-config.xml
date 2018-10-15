@@ -20,7 +20,7 @@
 
     <!-- Continue editing here -->
      <typeAliases>
-         <typeAlias type="com.lcg.entity.User" alias="user"></typeAlias>
+         <typeAlias type="com.lcg.vueadmin.entity.User" alias="user"></typeAlias>
      </typeAliases>
 
 </configuration>

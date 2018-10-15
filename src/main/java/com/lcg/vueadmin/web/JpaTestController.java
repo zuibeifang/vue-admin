@@ -1,7 +1,7 @@
-package com.lcg.web;
+package com.lcg.vueadmin.web;
 
-import com.lcg.daoJpa.UserJPARepository;
-import com.lcg.jpaEntity.UserJPA;
+import com.lcg.vueadmin.daoJpa.UserJPARepository;
+import com.lcg.vueadmin.jpaEntity.UserJPA;
 import org.hibernate.transform.Transformers;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.RequestMapping;

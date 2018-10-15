@@ -1,7 +1,7 @@
 package com.lcg.service;
 
-import com.lcg.dao.LoginMapper;
-import com.lcg.entity.User;
+import com.lcg.vueadmin.dao.LoginMapper;
+import com.lcg.vueadmin.entity.User;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 

@@ -1,6 +1,6 @@
-package com.lcg.daoJpa;
+package com.lcg.vueadmin.daoJpa;
 
-import com.lcg.jpaEntity.UserJPA;
+import com.lcg.vueadmin.jpaEntity.UserJPA;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.data.jpa.repository.Query;
 import org.springframework.data.repository.query.Param;

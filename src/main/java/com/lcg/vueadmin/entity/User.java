@@ -1,4 +1,4 @@
-package com.lcg.entity;
+package com.lcg.vueadmin.entity;
 
 import lombok.Data;
 

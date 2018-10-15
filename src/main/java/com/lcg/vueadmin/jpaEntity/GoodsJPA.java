@@ -1,4 +1,4 @@
-package com.lcg.jpaEntity;
+package com.lcg.vueadmin.jpaEntity;
 
 import lombok.Data;
 
@@ -8,16 +8,17 @@ import javax.persistence.Id;
 import javax.persistence.Table;
 
 @Entity
-@Table(name="jpa_user")
+@Table(name="jpa_goods")
 @Data
-public class UserJPA {
-    @Id
+public class GoodsJPA {
+
     @GeneratedValue
+    @Id
     private long id;
 
-    private String userName;
-
-    private String password;
+    private String goodsName;
 
     private long userId;
+
+    private String brandName;
 }

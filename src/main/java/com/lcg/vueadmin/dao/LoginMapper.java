@@ -1,9 +1,7 @@
-package com.lcg.dao;
+package com.lcg.vueadmin.dao;
 
-import com.lcg.entity.User;
+import com.lcg.vueadmin.entity.User;
 import org.apache.ibatis.annotations.Mapper;
-import org.apache.ibatis.annotations.Result;
-import org.apache.ibatis.annotations.Results;
 import org.apache.ibatis.annotations.Select;
 
 import java.util.List;

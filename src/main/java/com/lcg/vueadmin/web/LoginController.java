@@ -1,9 +1,7 @@
-package com.lcg.web;
+package com.lcg.vueadmin.web;
 
-import com.lcg.dao.LoginMapper;
-import com.lcg.daoJpa.UserJPARepository;
-import com.lcg.entity.User;
-import com.lcg.jpaEntity.UserJPA;
+import com.lcg.vueadmin.dao.LoginMapper;
+import com.lcg.vueadmin.entity.User;
 import com.lcg.service.LoginService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Qualifier;

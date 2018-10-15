@@ -2,7 +2,7 @@
 <!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
         "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
 
-<mapper namespace="com.lcg.dao.LoginMapper">
+<mapper namespace="com.lcg.vueadmin.dao.LoginMapper">
 
      <select id="getUserById" parameterType="long" resultType="user">
          select * from base_user where id=#{id}

@@ -1,6 +1,6 @@
-package com.lcg.daoJpa;
+package com.lcg.vueadmin.daoJpa;
 
-import com.lcg.jpaEntity.GoodsJPA;
+import com.lcg.vueadmin.jpaEntity.GoodsJPA;
 import org.springframework.data.jpa.repository.JpaRepository;
 
 public interface GoodsJPARepository extends JpaRepository<GoodsJPA,Long> {
