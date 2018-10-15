@@ -2,7 +2,7 @@ package com.lcg.vueadmin.web;
 
 import com.lcg.vueadmin.dao.LoginMapper;
 import com.lcg.vueadmin.entity.User;
-import com.lcg.service.LoginService;
+import com.lcg.vueadmin.service.LoginService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.web.bind.annotation.RequestMapping;
